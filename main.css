@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+
+.btn{
+    @apply  bg-[#F44335] text-white md:p-2 rounded-sm hover:scale-105 transition-all duration-300 cursor-pointer text-sm md:text-base; 
+}
+
+.tag{
+    @apply md:px-2 py-1 rounded-2xl hover:bg-black hover:text-white  border border-black text-xs md:text-base dark:text-white dark:border-white hover:dark:text-orange-100;
+}
+
+.course-btn{
+    @apply md:px-3  py-0 rounded-xl  hover:bg-green-500 hover:text-white  border border-black text-xs md:text-base dark:border-white dark:text-white;
+}
+
+.li{
+    @apply hover:scale-105 transition-all hover:font-semibold cursor-pointer dark:text-white;
+}
+
+}
